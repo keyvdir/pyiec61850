@@ -30,8 +30,8 @@ sudo make install
 11.	make WITH_MBEDTLS=1
 12.	cd ..
 13.	python server.py and python client.py (different terminal window)
-![Server example](server.png)
-![Client example](client.png)
+![Server example](server.PNG)
+![Client example](client.PNG)
 # C.	IEC 61850 Information Model
 ![IEC 61850 Information Model](data.png)
 # D.	Write and Read Data
