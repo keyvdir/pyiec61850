@@ -30,7 +30,9 @@ sudo make install
 11.	make WITH_MBEDTLS=1
 12.	cd ..
 13.	python server.py and python client.py (different terminal window)
+![Server example](server.png)
+![Client example](client.png)
 # C.	IEC 61850 Information Model
-![Image description](link-to-image)
+![IEC 61850 Information Model](data.png)
 # D.	Write and Read Data
 Data type for write, read, and other complete functions can be found in “libiec61850/pyiec61850/iec61850.py”. Please refer to the original website of IEC61850 for further information of the data types. https://libiec61850.com/api/modules.html
