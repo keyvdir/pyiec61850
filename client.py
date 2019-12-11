@@ -5,7 +5,7 @@ import threading
 import traceback
 import signal
 import sys
-sys.path.insert(0, "~/libiec61850/pyiec61850")
+sys.path.insert(0, "libiec61850/pyiec61850")
 import iec61850
 from datetime import datetime
 
