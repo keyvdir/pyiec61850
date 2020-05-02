@@ -22,9 +22,9 @@ sudo make install
 3.	git clone https://github.com/keyvdir/pyiec61850.git
 4.	cd pyiec61850
 5.	git clone https://github.com/mz-automation/libiec61850.git
-6.	wget https://tls.mbed.org/download/mbedtls-2.6.0-apache.tgz
-7.	tar zxvf mbedtls-2.6.0-apache.tgz
-8.	mv mbedtls-2.6.0 libiec61850/third_party/mbedtls
+6.	wget https://tls.mbed.org/download/mbedtls-2.16.0-apache.tgz
+7.	tar zxvf mbedtls-2.16.0-apache.tgz
+8.	mv mbedtls-2.16.0 libiec61850/third_party/mbedtls/mbedtls-2.16
 9.	cd libiec61850
 10.	cmake -BUILD_PYTHON2_BINDINGS=ON . (or use PYTHON3 for python 3 binding)
 11.	make WITH_MBEDTLS=1
