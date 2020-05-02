@@ -26,7 +26,7 @@ sudo make install
 7.	tar zxvf mbedtls-2.6.0-apache.tgz
 8.	mv mbedtls-2.6.0 libiec61850/third_party/mbedtls
 9.	cd libiec61850
-10.	cmake -DBUILD_PYTHON2_BINDINGS=ON . (or use PYTHON3 for python 3 binding)
+10.	cmake -BUILD_PYTHON2_BINDINGS=ON . (or use PYTHON3 for python 3 binding)
 11.	make WITH_MBEDTLS=1
 12.	cd ..
 13.	python server.py and python client.py (different terminal window)
