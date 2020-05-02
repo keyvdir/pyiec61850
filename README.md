@@ -2,20 +2,23 @@
 Server and Client of PyIEC61850 based on mz-automation
 
 # A.	Requirements
-1.	Python 2.7 or higher
-2.	CMake 3.7.2 or higher
-wget https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz
-tar zxvf cmake-3.7.2.tar.gz
-cd cmake-3.7.2
-./bootstrap && make
-sudo make install
-3.	SWIG 4.0.0 or higher
-wget http://prdownloads.sourceforge.net/swig/swig-4.0.0.tar.gz
-tar xzf swig-4.0.0.tar.gz
-cd swig-4.0.0
-./configure
-make
-sudo make install
+a.	Python 2.7 or higher
+
+b.	CMake 3.7.2 or higher
+1. wget https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz
+2. tar zxvf cmake-3.7.2.tar.gz
+3. cd cmake-3.7.2
+4. ./bootstrap && make
+5. sudo make install
+
+c.	SWIG 4.0.0 or higher
+1. wget http://prdownloads.sourceforge.net/swig/swig-4.0.0.tar.gz
+2. tar xzf swig-4.0.0.tar.gz
+3. cd swig-4.0.0
+4. ./configure
+5. make
+6. sudo make install
+
 # B.	Installation
 1.	cd ~
 2.	sudo apt update && upgrade
